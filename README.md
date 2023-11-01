@@ -1,4 +1,8 @@
 # Desenzano Sport App
-- Registration form
+
 - User information
+- Registration form
 - Activity calendar
+- News + foto
+- Language swap
+- Auth user/admin

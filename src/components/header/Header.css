@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+
+  .header-section {
+
+    .header-item {
+      cursor: pointer;
+      position: relative;
+    }
+    .header-item.active::before,
+    .header-item:hover::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translateX(-50%);
+      height: 1px;
+      width: calc(100% - 32px);
+      background-color: #fff;
+    }
+  }
+
+  .header-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transform: translateY(100%);
+  }
+}

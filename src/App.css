@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+/* General layout */
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Global classes flex */
+.df {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.df-jcc-aic {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.df-jcsb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Global classes colors */
+.color-white {
+  color: #fff;
+}
+.background-white {
+  background: #fff;
+}
+.color-blue {
+  color: #00415a;
+}
+.background-blue {
+  background: #00415a;
+}
+.color-red {
+  color: #850000;
+}
+.background-red {
+  background: #850000;
+}
+
+/* Global layout classes */
+.padding-xxs {
+  padding: 4px;
+}
+.h-padding-xxs {
+  padding: 0 4px;
+}
+.v-padding-xxs {
+  padding: 4px 0;
+}
+.padding-xs {
+  padding: 8px;
+}
+.h-padding-xs {
+  padding: 0 8px;
+}
+.v-padding-xs {
+  padding: 8px 0;
+}
+.padding-s {
+  padding: 12px;
+}
+.h-padding-s {
+  padding: 0 12px;
+}
+.v-padding-s {
+  padding: 12px 0;
+}
+.padding-m {
+  padding: 16px;
+}
+.h-padding-m {
+  padding: 0 16px;
+}
+.v-padding-m {
+  padding: 16px 0;
+}
+.padding-l {
+  padding: 24px;
+}
+.h-padding-l {
+  padding: 0 24px;
+}
+.v-padding-l {
+  padding: 24px 0;
+}
+.padding-xl {
+  padding: 32px;
+}
+.h-padding-xl {
+  padding: 0 32px;
+}
+.v-padding-xl {
+  padding: 32px 0;
+}
+.padding-xxl {
+  padding: 48px;
+}
+.h-padding-xxl {
+  padding: 0 48px;
+}
+.v-padding-xxl {
+  padding: 48px 0;
+}
+.margin-s {
+  margin: 16px;
+}
+.h-margin-s {
+  margin: 0 16px;
+}
+.v-margin-s {
+  margin: 16px 0;
+}
+.margin-m {
+  margin: 24px;
+}
+.h-margin-m {
+  margin: 0 24px;
+}
+.v-margin-m {
+  margin: 24px 0;
+}
+.margin-l {
+  margin: 96px;
+}
+.h-margin-l {
+  margin: 0 96px;
+}
+.v-margin-l {
+  margin: 96px 0;
 }
