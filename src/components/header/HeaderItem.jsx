@@ -1,7 +1,7 @@
-export default function HeaderItem({ children, onSelect, isSelected }) {
+export default function HeaderItem({ children, isSelected, ...props }) {
   
   return (
-    <div className={isSelected ? 'active header-item df-jcc-aic padding-m' : 'not-active header-item df-jcc-aic padding-m'} onClick={onSelect}>
+    <div className={isSelected ? 'active header-item df-jcc-aic padding-m' : 'not-active header-item df-jcc-aic padding-m'} {...props}>
       <span>{children}</span>
     </div>
   );

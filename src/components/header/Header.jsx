@@ -33,25 +33,25 @@ export default function Header() {
       <div className='header-section df-jcc-aic'>
         <HeaderItem
           isSelected={selectedTopic === 'ATHLETICS'}
-          onSelect={() => handleSelect('ATHLETICS')}
+          onClick={() => handleSelect('ATHLETICS')}
         >
           ATHLETICS
         </HeaderItem>
         <HeaderItem
           isSelected={selectedTopic === 'ARCHERY'}
-          onSelect={() => handleSelect('ARCHERY')}
+          onClick={() => handleSelect('ARCHERY')}
         >
           ARCHERY
         </HeaderItem>
         <HeaderItem
           isSelected={selectedTopic === 'SCUBA_DIVER'}
-          onSelect={() => handleSelect('SCUBA_DIVER')}
+          onClick={() => handleSelect('SCUBA_DIVER')}
         >
           SCUBA DIVER
         </HeaderItem>
         <HeaderItem
           isSelected={selectedTopic === 'SUMMERCAM'}
-          onSelect={() => handleSelect('SUMMERCAMP')}
+          onClick={() => handleSelect('SUMMERCAMP')}
         >
           SUMMERCAMP
         </HeaderItem>
