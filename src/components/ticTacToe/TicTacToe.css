@@ -1,0 +1,15 @@
+.tic-tac-toe {
+  background: #333;
+
+  .game-container {
+    width: 50%;
+    background: #f0c75e;
+    border-radius: 5px;
+
+    .players li {
+      width: 40%;
+      list-style-type: none;
+    }
+
+  }
+}

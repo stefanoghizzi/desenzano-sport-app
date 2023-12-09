@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* Global classes flex */
+/* Global flex classes */
 .df {
   display: flex;
 }
@@ -12,12 +12,23 @@
   justify-content: center;
   align-items: center;
 }
-
 .df-jcsb-aic {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.df-jcsa-aic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.df-fdc-jcc-aic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Global classes colors */
 .color-white {
